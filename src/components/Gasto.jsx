@@ -27,7 +27,7 @@ const diccionarioIconos = {
   gastos : IconoGastos
 }
 
-const Gasto = ({gasto, setGastoEditar, eliminarGasto}) => {
+const Gasto = ({gasto, setGastoEditar, eliminarGasto,}) => {
 
   const { categoria, nombre, cantidad, id, fecha } = gasto
 
@@ -52,8 +52,6 @@ const Gasto = ({gasto, setGastoEditar, eliminarGasto}) => {
       </SwipeAction>
     </TrailingActions>
   )
-
-  
 
   return (
     <SwipeableList>

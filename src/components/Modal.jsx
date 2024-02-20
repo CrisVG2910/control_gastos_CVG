@@ -82,7 +82,7 @@ const Modal = ({setModal, animarModal, setAnimarModal, guardarGasto, gastoEditar
                 id="cantidad"
                 type="number" 
                 placeholder='Cantidad del Gasto: ej. 500'
-                value={cantidad}
+                value={cantidad || ''}
                 onChange={ e => setCantidad(Number(e.target.value))}
             />
         </div>

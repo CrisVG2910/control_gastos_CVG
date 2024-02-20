@@ -288,7 +288,13 @@ main {
 }
 
 .contenido-gasto img {
-    width: 10rem;
+    width: 5rem;
+}
+
+@media (min-width: 768px) {
+    .contenido-gasto img {
+        width: 10rem;
+    }
 }
 
 .descripcion-gasto p {
