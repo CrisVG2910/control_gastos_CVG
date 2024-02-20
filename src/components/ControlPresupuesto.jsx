@@ -23,9 +23,9 @@ const ControlPresupuesto = ({gastos, setGastos, presupuesto, setPresupuesto, set
   }, [gastos])
 
     const formatearCantidad = (cantidad) => {
-        return Number(cantidad).toLocaleString('en-US', {
+        return Number(cantidad).toLocaleString('es-CL', {
             style: 'currency',
-            currency: 'USD'
+            currency: 'CLP'
         })
     }
 

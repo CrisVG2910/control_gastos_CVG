@@ -8,8 +8,8 @@ export const formatearFecha = fecha => {
     const fechaNueva = new Date(fecha)
     const opciones = {
         year: 'numeric',
-        month: 'long',
-        day: '2-digit',
+        month: 'numeric',
+        day: 'numeric',
     }
 
     return fechaNueva.toLocaleDateString('es-ES', opciones)
